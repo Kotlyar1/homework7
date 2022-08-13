@@ -39,7 +39,7 @@ void PrintArray(int[,] array)
     }
 }
 //СТРОКИ И СТОЛБЦЫ НАЧИНАЮТСЯ С 1
-//чтобы использовать индексы (от 0), раскмментируйте строки 49,50
+//чтобы использовать индексы (от 0), раскомментируйте строки 49,50
 void FindElementPosition(int[,] array, int positionRows, int positionColumns)
 {
     if (positionRows < array.GetLength(0) && positionColumns < array.GetLength(1))
